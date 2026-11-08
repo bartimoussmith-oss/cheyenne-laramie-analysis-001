@@ -1,0 +1,49 @@
+name: Scheduled cross-domain civic engine
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '31 */6 * * *'
+  push:
+    paths:
+      - 'engine.py'
+      - 'engine-config.json'
+      - '.github/workflows/analyze.yml'
+permissions:
+  contents: write
+concurrency:
+  group: analysis-engine-writer
+  cancel-in-progress: false
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Check out analysis engine
+        uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Read the public source archive without modifying it
+        uses: actions/checkout@v4
+        with:
+          repository: bartimoussmith-oss/cheyenne-laramie-archive
+          ref: main
+          path: source
+          persist-credentials: false
+          fetch-depth: 1
+          lfs: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate engine syntax
+        run: python -m py_compile engine.py
+      - name: Generate research catalog and execute supported bounded checks
+        run: python engine.py
+      - name: Publish evidence, candidates and checkpoint only
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- public engine-state.json
+          if ! git diff --cached --quiet; then
+            git commit -m "analysis: publish bounded evidence checks and resume cursor"
+            git push origin HEAD:main
+          fi
