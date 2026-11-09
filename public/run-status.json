@@ -1,2036 +1,2116 @@
 {
-  "generated_at": "2026-11-09T07:05:19.994744+00:00",
-  "source_revision": "dc7f3bf358ec93eb1476f3a5767ea6193db270f6",
+  "generated_at": "2026-11-09T22:39:35.815360+00:00",
+  "source_revision": "1d75aba88c640106e5d1e60209e6d504e4563cca",
   "generated_research_plans": 10080,
   "eligible_plan_variants": 2520,
   "implemented_recipe_algorithms": 4,
-  "plans_checked_this_run": 404,
+  "plans_checked_this_run": 420,
   "available_representation_files": 802,
   "window_records_loaded": 802,
   "candidate_rows": 200,
-  "released_evidence_records": 88,
+  "released_evidence_records": 81,
   "errors_first_50": [],
   "reviewed_findings": 0,
   "full_historical_coverage": false,
   "receipts": [
     {
-      "plan": "grants--public-land--shared-exact-identifier",
+      "plan": "roads--records-retention--shared-exact-identifier",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "grants--public-land--duplicate-content",
+      "plan": "roads--records-retention--duplicate-content",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "grants--public-land--source-url-revisions",
+      "plan": "roads--records-retention--source-url-revisions",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "grants--energy--same-record-topic-overlap",
-      "candidate_count_before_release_checks": 1,
-      "status": "candidates"
-    },
-    {
-      "plan": "grants--energy--shared-exact-identifier",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "grants--energy--duplicate-content",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "grants--energy--source-url-revisions",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "grants--environment--same-record-topic-overlap",
-      "candidate_count_before_release_checks": 5,
-      "status": "candidates"
-    },
-    {
-      "plan": "grants--environment--shared-exact-identifier",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "grants--environment--duplicate-content",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "grants--environment--source-url-revisions",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "grants--legacy-defense--same-record-topic-overlap",
+      "plan": "roads--vendor-data--same-record-topic-overlap",
       "candidate_count_before_release_checks": 2,
       "status": "candidates"
     },
     {
-      "plan": "grants--legacy-defense--shared-exact-identifier",
+      "plan": "roads--vendor-data--shared-exact-identifier",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "grants--legacy-defense--duplicate-content",
+      "plan": "roads--vendor-data--duplicate-content",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "grants--legacy-defense--source-url-revisions",
+      "plan": "roads--vendor-data--source-url-revisions",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "grants--housing--same-record-topic-overlap",
+      "plan": "roads--staffing--same-record-topic-overlap",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "roads--staffing--shared-exact-identifier",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "roads--staffing--duplicate-content",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "roads--staffing--source-url-revisions",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "roads--fees--same-record-topic-overlap",
       "candidate_count_before_release_checks": 5,
       "status": "candidates"
     },
     {
-      "plan": "grants--housing--shared-exact-identifier",
+      "plan": "roads--fees--shared-exact-identifier",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "grants--housing--duplicate-content",
+      "plan": "roads--fees--duplicate-content",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "grants--housing--source-url-revisions",
+      "plan": "roads--fees--source-url-revisions",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "grants--public-safety--same-record-topic-overlap",
+      "plan": "roads--taxes--same-record-topic-overlap",
       "candidate_count_before_release_checks": 5,
       "status": "candidates"
     },
     {
-      "plan": "grants--public-safety--shared-exact-identifier",
+      "plan": "roads--taxes--shared-exact-identifier",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "grants--public-safety--duplicate-content",
+      "plan": "roads--taxes--duplicate-content",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "grants--public-safety--source-url-revisions",
+      "plan": "roads--taxes--source-url-revisions",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "grants--fire-services--same-record-topic-overlap",
-      "candidate_count_before_release_checks": 5,
-      "status": "candidates"
-    },
-    {
-      "plan": "grants--fire-services--shared-exact-identifier",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "grants--fire-services--duplicate-content",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "grants--fire-services--source-url-revisions",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "grants--emergency-management--same-record-topic-overlap",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "grants--emergency-management--shared-exact-identifier",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "grants--emergency-management--duplicate-content",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "grants--emergency-management--source-url-revisions",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "grants--public-health--same-record-topic-overlap",
-      "candidate_count_before_release_checks": 1,
-      "status": "candidates"
-    },
-    {
-      "plan": "grants--public-health--shared-exact-identifier",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "grants--public-health--duplicate-content",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "grants--public-health--source-url-revisions",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "grants--schools--same-record-topic-overlap",
-      "candidate_count_before_release_checks": 2,
-      "status": "candidates"
-    },
-    {
-      "plan": "grants--schools--shared-exact-identifier",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "grants--schools--duplicate-content",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "grants--schools--source-url-revisions",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "grants--elections--same-record-topic-overlap",
-      "candidate_count_before_release_checks": 1,
-      "status": "candidates"
-    },
-    {
-      "plan": "grants--elections--shared-exact-identifier",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "grants--elections--duplicate-content",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "grants--elections--source-url-revisions",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "grants--council-decisions--same-record-topic-overlap",
-      "candidate_count_before_release_checks": 5,
-      "status": "candidates"
-    },
-    {
-      "plan": "grants--council-decisions--shared-exact-identifier",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "grants--council-decisions--duplicate-content",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "grants--council-decisions--source-url-revisions",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "grants--legal-code--same-record-topic-overlap",
-      "candidate_count_before_release_checks": 5,
-      "status": "candidates"
-    },
-    {
-      "plan": "grants--legal-code--shared-exact-identifier",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "grants--legal-code--duplicate-content",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "grants--legal-code--source-url-revisions",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "grants--public-comments--same-record-topic-overlap",
-      "candidate_count_before_release_checks": 5,
-      "status": "candidates"
-    },
-    {
-      "plan": "grants--public-comments--shared-exact-identifier",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "grants--public-comments--duplicate-content",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "grants--public-comments--source-url-revisions",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "grants--records-retention--same-record-topic-overlap",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "grants--records-retention--shared-exact-identifier",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "grants--records-retention--duplicate-content",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "grants--records-retention--source-url-revisions",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "grants--vendor-data--same-record-topic-overlap",
-      "candidate_count_before_release_checks": 5,
-      "status": "candidates"
-    },
-    {
-      "plan": "grants--vendor-data--shared-exact-identifier",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "grants--vendor-data--duplicate-content",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "grants--vendor-data--source-url-revisions",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "grants--staffing--same-record-topic-overlap",
-      "candidate_count_before_release_checks": 4,
-      "status": "candidates"
-    },
-    {
-      "plan": "grants--staffing--shared-exact-identifier",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "grants--staffing--duplicate-content",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "grants--staffing--source-url-revisions",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "grants--fees--same-record-topic-overlap",
-      "candidate_count_before_release_checks": 2,
-      "status": "candidates"
-    },
-    {
-      "plan": "grants--fees--shared-exact-identifier",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "grants--fees--duplicate-content",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "grants--fees--source-url-revisions",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "grants--taxes--same-record-topic-overlap",
-      "candidate_count_before_release_checks": 5,
-      "status": "candidates"
-    },
-    {
-      "plan": "grants--taxes--shared-exact-identifier",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "grants--taxes--duplicate-content",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "grants--taxes--source-url-revisions",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "grants--intergovernmental-agreements--same-record-topic-overlap",
-      "candidate_count_before_release_checks": 1,
-      "status": "candidates"
-    },
-    {
-      "plan": "grants--intergovernmental-agreements--shared-exact-identifier",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "grants--intergovernmental-agreements--duplicate-content",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "grants--intergovernmental-agreements--source-url-revisions",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "debt--capital-projects--same-record-topic-overlap",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "debt--capital-projects--shared-exact-identifier",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "debt--capital-projects--duplicate-content",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "debt--capital-projects--source-url-revisions",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "debt--roads--same-record-topic-overlap",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "debt--roads--shared-exact-identifier",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "debt--roads--duplicate-content",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "debt--roads--source-url-revisions",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "debt--transit--same-record-topic-overlap",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "debt--transit--shared-exact-identifier",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "debt--transit--duplicate-content",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "debt--transit--source-url-revisions",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "debt--water--same-record-topic-overlap",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "debt--water--shared-exact-identifier",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "debt--water--duplicate-content",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "debt--water--source-url-revisions",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "debt--wastewater--same-record-topic-overlap",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "debt--wastewater--shared-exact-identifier",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "debt--wastewater--duplicate-content",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "debt--wastewater--source-url-revisions",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "debt--stormwater--same-record-topic-overlap",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "debt--stormwater--shared-exact-identifier",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "debt--stormwater--duplicate-content",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "debt--stormwater--source-url-revisions",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "debt--water-rights--same-record-topic-overlap",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "debt--water-rights--shared-exact-identifier",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "debt--water-rights--duplicate-content",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "debt--water-rights--source-url-revisions",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "debt--land-use--same-record-topic-overlap",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "debt--land-use--shared-exact-identifier",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "debt--land-use--duplicate-content",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "debt--land-use--source-url-revisions",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "debt--annexation--same-record-topic-overlap",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "debt--annexation--shared-exact-identifier",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "debt--annexation--duplicate-content",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "debt--annexation--source-url-revisions",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "debt--parcels--same-record-topic-overlap",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "debt--parcels--shared-exact-identifier",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "debt--parcels--duplicate-content",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "debt--parcels--source-url-revisions",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "debt--public-land--same-record-topic-overlap",
-      "candidate_count_before_release_checks": 2,
-      "status": "candidates"
-    },
-    {
-      "plan": "debt--public-land--shared-exact-identifier",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "debt--public-land--duplicate-content",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "debt--public-land--source-url-revisions",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "debt--energy--same-record-topic-overlap",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "debt--energy--shared-exact-identifier",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "debt--energy--duplicate-content",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "debt--energy--source-url-revisions",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "debt--environment--same-record-topic-overlap",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "debt--environment--shared-exact-identifier",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "debt--environment--duplicate-content",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "debt--environment--source-url-revisions",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "debt--legacy-defense--same-record-topic-overlap",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "debt--legacy-defense--shared-exact-identifier",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "debt--legacy-defense--duplicate-content",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "debt--legacy-defense--source-url-revisions",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "debt--housing--same-record-topic-overlap",
-      "candidate_count_before_release_checks": 1,
-      "status": "candidates"
-    },
-    {
-      "plan": "debt--housing--shared-exact-identifier",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "debt--housing--duplicate-content",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "debt--housing--source-url-revisions",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "debt--public-safety--same-record-topic-overlap",
-      "candidate_count_before_release_checks": 1,
-      "status": "candidates"
-    },
-    {
-      "plan": "debt--public-safety--shared-exact-identifier",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "debt--public-safety--duplicate-content",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "debt--public-safety--source-url-revisions",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "debt--fire-services--same-record-topic-overlap",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "debt--fire-services--shared-exact-identifier",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "debt--fire-services--duplicate-content",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "debt--fire-services--source-url-revisions",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "debt--emergency-management--same-record-topic-overlap",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "debt--emergency-management--shared-exact-identifier",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "debt--emergency-management--duplicate-content",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "debt--emergency-management--source-url-revisions",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "debt--public-health--same-record-topic-overlap",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "debt--public-health--shared-exact-identifier",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "debt--public-health--duplicate-content",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "debt--public-health--source-url-revisions",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "debt--schools--same-record-topic-overlap",
-      "candidate_count_before_release_checks": 1,
-      "status": "candidates"
-    },
-    {
-      "plan": "debt--schools--shared-exact-identifier",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "debt--schools--duplicate-content",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "debt--schools--source-url-revisions",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "debt--elections--same-record-topic-overlap",
-      "candidate_count_before_release_checks": 1,
-      "status": "candidates"
-    },
-    {
-      "plan": "debt--elections--shared-exact-identifier",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "debt--elections--duplicate-content",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "debt--elections--source-url-revisions",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "debt--council-decisions--same-record-topic-overlap",
-      "candidate_count_before_release_checks": 4,
-      "status": "candidates"
-    },
-    {
-      "plan": "debt--council-decisions--shared-exact-identifier",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "debt--council-decisions--duplicate-content",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "debt--council-decisions--source-url-revisions",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "debt--legal-code--same-record-topic-overlap",
+      "plan": "roads--intergovernmental-agreements--same-record-topic-overlap",
       "candidate_count_before_release_checks": 3,
       "status": "candidates"
     },
     {
-      "plan": "debt--legal-code--shared-exact-identifier",
+      "plan": "roads--intergovernmental-agreements--shared-exact-identifier",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "debt--legal-code--duplicate-content",
+      "plan": "roads--intergovernmental-agreements--duplicate-content",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "debt--legal-code--source-url-revisions",
+      "plan": "roads--intergovernmental-agreements--source-url-revisions",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "debt--public-comments--same-record-topic-overlap",
-      "candidate_count_before_release_checks": 2,
-      "status": "candidates"
-    },
-    {
-      "plan": "debt--public-comments--shared-exact-identifier",
+      "plan": "transit--water--same-record-topic-overlap",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "debt--public-comments--duplicate-content",
+      "plan": "transit--water--shared-exact-identifier",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "debt--public-comments--source-url-revisions",
+      "plan": "transit--water--duplicate-content",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "debt--records-retention--same-record-topic-overlap",
+      "plan": "transit--water--source-url-revisions",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "debt--records-retention--shared-exact-identifier",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "debt--records-retention--duplicate-content",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "debt--records-retention--source-url-revisions",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "debt--vendor-data--same-record-topic-overlap",
+      "plan": "transit--wastewater--same-record-topic-overlap",
       "candidate_count_before_release_checks": 1,
       "status": "candidates"
     },
     {
-      "plan": "debt--vendor-data--shared-exact-identifier",
+      "plan": "transit--wastewater--shared-exact-identifier",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "debt--vendor-data--duplicate-content",
+      "plan": "transit--wastewater--duplicate-content",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "debt--vendor-data--source-url-revisions",
+      "plan": "transit--wastewater--source-url-revisions",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "debt--staffing--same-record-topic-overlap",
+      "plan": "transit--stormwater--same-record-topic-overlap",
       "candidate_count_before_release_checks": 1,
       "status": "candidates"
     },
     {
-      "plan": "debt--staffing--shared-exact-identifier",
+      "plan": "transit--stormwater--shared-exact-identifier",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "debt--staffing--duplicate-content",
+      "plan": "transit--stormwater--duplicate-content",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "debt--staffing--source-url-revisions",
+      "plan": "transit--stormwater--source-url-revisions",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "debt--fees--same-record-topic-overlap",
-      "candidate_count_before_release_checks": 2,
-      "status": "candidates"
-    },
-    {
-      "plan": "debt--fees--shared-exact-identifier",
+      "plan": "transit--water-rights--same-record-topic-overlap",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "debt--fees--duplicate-content",
+      "plan": "transit--water-rights--shared-exact-identifier",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "debt--fees--source-url-revisions",
+      "plan": "transit--water-rights--duplicate-content",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "debt--taxes--same-record-topic-overlap",
+      "plan": "transit--water-rights--source-url-revisions",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "transit--land-use--same-record-topic-overlap",
       "candidate_count_before_release_checks": 4,
       "status": "candidates"
     },
     {
-      "plan": "debt--taxes--shared-exact-identifier",
+      "plan": "transit--land-use--shared-exact-identifier",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "debt--taxes--duplicate-content",
+      "plan": "transit--land-use--duplicate-content",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "debt--taxes--source-url-revisions",
+      "plan": "transit--land-use--source-url-revisions",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "debt--intergovernmental-agreements--same-record-topic-overlap",
+      "plan": "transit--annexation--same-record-topic-overlap",
       "candidate_count_before_release_checks": 1,
       "status": "candidates"
     },
     {
-      "plan": "debt--intergovernmental-agreements--shared-exact-identifier",
+      "plan": "transit--annexation--shared-exact-identifier",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "debt--intergovernmental-agreements--duplicate-content",
+      "plan": "transit--annexation--duplicate-content",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "debt--intergovernmental-agreements--source-url-revisions",
+      "plan": "transit--annexation--source-url-revisions",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "capital-projects--roads--same-record-topic-overlap",
-      "candidate_count_before_release_checks": 1,
+      "plan": "transit--parcels--same-record-topic-overlap",
+      "candidate_count_before_release_checks": 2,
       "status": "candidates"
     },
     {
-      "plan": "capital-projects--roads--shared-exact-identifier",
+      "plan": "transit--parcels--shared-exact-identifier",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "capital-projects--roads--duplicate-content",
+      "plan": "transit--parcels--duplicate-content",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "capital-projects--roads--source-url-revisions",
+      "plan": "transit--parcels--source-url-revisions",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "capital-projects--transit--same-record-topic-overlap",
-      "candidate_count_before_release_checks": 3,
-      "status": "candidates"
-    },
-    {
-      "plan": "capital-projects--transit--shared-exact-identifier",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "capital-projects--transit--duplicate-content",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "capital-projects--transit--source-url-revisions",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "capital-projects--water--same-record-topic-overlap",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "capital-projects--water--shared-exact-identifier",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "capital-projects--water--duplicate-content",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "capital-projects--water--source-url-revisions",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "capital-projects--wastewater--same-record-topic-overlap",
-      "candidate_count_before_release_checks": 1,
-      "status": "candidates"
-    },
-    {
-      "plan": "capital-projects--wastewater--shared-exact-identifier",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "capital-projects--wastewater--duplicate-content",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "capital-projects--wastewater--source-url-revisions",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "capital-projects--stormwater--same-record-topic-overlap",
+      "plan": "transit--public-land--same-record-topic-overlap",
       "candidate_count_before_release_checks": 5,
       "status": "candidates"
     },
     {
-      "plan": "capital-projects--stormwater--shared-exact-identifier",
+      "plan": "transit--public-land--shared-exact-identifier",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "capital-projects--stormwater--duplicate-content",
+      "plan": "transit--public-land--duplicate-content",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "capital-projects--stormwater--source-url-revisions",
+      "plan": "transit--public-land--source-url-revisions",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "capital-projects--water-rights--same-record-topic-overlap",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "capital-projects--water-rights--shared-exact-identifier",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "capital-projects--water-rights--duplicate-content",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "capital-projects--water-rights--source-url-revisions",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "capital-projects--land-use--same-record-topic-overlap",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "capital-projects--land-use--shared-exact-identifier",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "capital-projects--land-use--duplicate-content",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "capital-projects--land-use--source-url-revisions",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "capital-projects--annexation--same-record-topic-overlap",
+      "plan": "transit--energy--same-record-topic-overlap",
       "candidate_count_before_release_checks": 1,
       "status": "candidates"
     },
     {
-      "plan": "capital-projects--annexation--shared-exact-identifier",
+      "plan": "transit--energy--shared-exact-identifier",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "capital-projects--annexation--duplicate-content",
+      "plan": "transit--energy--duplicate-content",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "capital-projects--annexation--source-url-revisions",
+      "plan": "transit--energy--source-url-revisions",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "capital-projects--parcels--same-record-topic-overlap",
+      "plan": "transit--environment--same-record-topic-overlap",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "capital-projects--parcels--shared-exact-identifier",
+      "plan": "transit--environment--shared-exact-identifier",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "capital-projects--parcels--duplicate-content",
+      "plan": "transit--environment--duplicate-content",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "capital-projects--parcels--source-url-revisions",
+      "plan": "transit--environment--source-url-revisions",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "capital-projects--public-land--same-record-topic-overlap",
+      "plan": "transit--legacy-defense--same-record-topic-overlap",
+      "candidate_count_before_release_checks": 2,
+      "status": "candidates"
+    },
+    {
+      "plan": "transit--legacy-defense--shared-exact-identifier",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "capital-projects--public-land--shared-exact-identifier",
+      "plan": "transit--legacy-defense--duplicate-content",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "capital-projects--public-land--duplicate-content",
+      "plan": "transit--legacy-defense--source-url-revisions",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "capital-projects--public-land--source-url-revisions",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "capital-projects--energy--same-record-topic-overlap",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "capital-projects--energy--shared-exact-identifier",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "capital-projects--energy--duplicate-content",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "capital-projects--energy--source-url-revisions",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "capital-projects--environment--same-record-topic-overlap",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "capital-projects--environment--shared-exact-identifier",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "capital-projects--environment--duplicate-content",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "capital-projects--environment--source-url-revisions",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "capital-projects--legacy-defense--same-record-topic-overlap",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "capital-projects--legacy-defense--shared-exact-identifier",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "capital-projects--legacy-defense--duplicate-content",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "capital-projects--legacy-defense--source-url-revisions",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "capital-projects--housing--same-record-topic-overlap",
+      "plan": "transit--housing--same-record-topic-overlap",
       "candidate_count_before_release_checks": 3,
       "status": "candidates"
     },
     {
-      "plan": "capital-projects--housing--shared-exact-identifier",
+      "plan": "transit--housing--shared-exact-identifier",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "capital-projects--housing--duplicate-content",
+      "plan": "transit--housing--duplicate-content",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "capital-projects--housing--source-url-revisions",
+      "plan": "transit--housing--source-url-revisions",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "capital-projects--public-safety--same-record-topic-overlap",
+      "plan": "transit--public-safety--same-record-topic-overlap",
       "candidate_count_before_release_checks": 5,
       "status": "candidates"
     },
     {
-      "plan": "capital-projects--public-safety--shared-exact-identifier",
+      "plan": "transit--public-safety--shared-exact-identifier",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "capital-projects--public-safety--duplicate-content",
+      "plan": "transit--public-safety--duplicate-content",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "capital-projects--public-safety--source-url-revisions",
+      "plan": "transit--public-safety--source-url-revisions",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "capital-projects--fire-services--same-record-topic-overlap",
+      "plan": "transit--fire-services--same-record-topic-overlap",
+      "candidate_count_before_release_checks": 5,
+      "status": "candidates"
+    },
+    {
+      "plan": "transit--fire-services--shared-exact-identifier",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "transit--fire-services--duplicate-content",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "transit--fire-services--source-url-revisions",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "transit--emergency-management--same-record-topic-overlap",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "transit--emergency-management--shared-exact-identifier",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "transit--emergency-management--duplicate-content",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "transit--emergency-management--source-url-revisions",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "transit--public-health--same-record-topic-overlap",
+      "candidate_count_before_release_checks": 1,
+      "status": "candidates"
+    },
+    {
+      "plan": "transit--public-health--shared-exact-identifier",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "transit--public-health--duplicate-content",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "transit--public-health--source-url-revisions",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "transit--schools--same-record-topic-overlap",
+      "candidate_count_before_release_checks": 2,
+      "status": "candidates"
+    },
+    {
+      "plan": "transit--schools--shared-exact-identifier",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "transit--schools--duplicate-content",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "transit--schools--source-url-revisions",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "transit--elections--same-record-topic-overlap",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "transit--elections--shared-exact-identifier",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "transit--elections--duplicate-content",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "transit--elections--source-url-revisions",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "transit--council-decisions--same-record-topic-overlap",
+      "candidate_count_before_release_checks": 5,
+      "status": "candidates"
+    },
+    {
+      "plan": "transit--council-decisions--shared-exact-identifier",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "transit--council-decisions--duplicate-content",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "transit--council-decisions--source-url-revisions",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "transit--legal-code--same-record-topic-overlap",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "transit--legal-code--shared-exact-identifier",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "transit--legal-code--duplicate-content",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "transit--legal-code--source-url-revisions",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "transit--public-comments--same-record-topic-overlap",
       "candidate_count_before_release_checks": 4,
       "status": "candidates"
     },
     {
-      "plan": "capital-projects--fire-services--shared-exact-identifier",
+      "plan": "transit--public-comments--shared-exact-identifier",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "capital-projects--fire-services--duplicate-content",
+      "plan": "transit--public-comments--duplicate-content",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "capital-projects--fire-services--source-url-revisions",
+      "plan": "transit--public-comments--source-url-revisions",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "capital-projects--emergency-management--same-record-topic-overlap",
+      "plan": "transit--records-retention--same-record-topic-overlap",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "transit--records-retention--shared-exact-identifier",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "transit--records-retention--duplicate-content",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "transit--records-retention--source-url-revisions",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "transit--vendor-data--same-record-topic-overlap",
+      "candidate_count_before_release_checks": 5,
+      "status": "candidates"
+    },
+    {
+      "plan": "transit--vendor-data--shared-exact-identifier",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "transit--vendor-data--duplicate-content",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "transit--vendor-data--source-url-revisions",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "transit--staffing--same-record-topic-overlap",
       "candidate_count_before_release_checks": 1,
       "status": "candidates"
     },
     {
-      "plan": "capital-projects--emergency-management--shared-exact-identifier",
+      "plan": "transit--staffing--shared-exact-identifier",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "capital-projects--emergency-management--duplicate-content",
+      "plan": "transit--staffing--duplicate-content",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "capital-projects--emergency-management--source-url-revisions",
+      "plan": "transit--staffing--source-url-revisions",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "capital-projects--public-health--same-record-topic-overlap",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "capital-projects--public-health--shared-exact-identifier",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "capital-projects--public-health--duplicate-content",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "capital-projects--public-health--source-url-revisions",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "capital-projects--schools--same-record-topic-overlap",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "capital-projects--schools--shared-exact-identifier",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "capital-projects--schools--duplicate-content",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "capital-projects--schools--source-url-revisions",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "capital-projects--elections--same-record-topic-overlap",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "capital-projects--elections--shared-exact-identifier",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "capital-projects--elections--duplicate-content",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "capital-projects--elections--source-url-revisions",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "capital-projects--council-decisions--same-record-topic-overlap",
+      "plan": "transit--fees--same-record-topic-overlap",
       "candidate_count_before_release_checks": 1,
       "status": "candidates"
     },
     {
-      "plan": "capital-projects--council-decisions--shared-exact-identifier",
+      "plan": "transit--fees--shared-exact-identifier",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "capital-projects--council-decisions--duplicate-content",
+      "plan": "transit--fees--duplicate-content",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "capital-projects--council-decisions--source-url-revisions",
+      "plan": "transit--fees--source-url-revisions",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "capital-projects--legal-code--same-record-topic-overlap",
-      "candidate_count_before_release_checks": 1,
+      "plan": "transit--taxes--same-record-topic-overlap",
+      "candidate_count_before_release_checks": 5,
       "status": "candidates"
     },
     {
-      "plan": "capital-projects--legal-code--shared-exact-identifier",
+      "plan": "transit--taxes--shared-exact-identifier",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "capital-projects--legal-code--duplicate-content",
+      "plan": "transit--taxes--duplicate-content",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "capital-projects--legal-code--source-url-revisions",
+      "plan": "transit--taxes--source-url-revisions",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "capital-projects--public-comments--same-record-topic-overlap",
-      "candidate_count_before_release_checks": 1,
-      "status": "candidates"
-    },
-    {
-      "plan": "capital-projects--public-comments--shared-exact-identifier",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "capital-projects--public-comments--duplicate-content",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "capital-projects--public-comments--source-url-revisions",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "capital-projects--records-retention--same-record-topic-overlap",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "capital-projects--records-retention--shared-exact-identifier",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "capital-projects--records-retention--duplicate-content",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "capital-projects--records-retention--source-url-revisions",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "capital-projects--vendor-data--same-record-topic-overlap",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "capital-projects--vendor-data--shared-exact-identifier",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "capital-projects--vendor-data--duplicate-content",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "capital-projects--vendor-data--source-url-revisions",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "capital-projects--staffing--same-record-topic-overlap",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "capital-projects--staffing--shared-exact-identifier",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "capital-projects--staffing--duplicate-content",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "capital-projects--staffing--source-url-revisions",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "capital-projects--fees--same-record-topic-overlap",
+      "plan": "transit--intergovernmental-agreements--same-record-topic-overlap",
       "candidate_count_before_release_checks": 2,
       "status": "candidates"
     },
     {
-      "plan": "capital-projects--fees--shared-exact-identifier",
+      "plan": "transit--intergovernmental-agreements--shared-exact-identifier",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "capital-projects--fees--duplicate-content",
+      "plan": "transit--intergovernmental-agreements--duplicate-content",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "capital-projects--fees--source-url-revisions",
+      "plan": "transit--intergovernmental-agreements--source-url-revisions",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "capital-projects--taxes--same-record-topic-overlap",
-      "candidate_count_before_release_checks": 5,
-      "status": "candidates"
-    },
-    {
-      "plan": "capital-projects--taxes--shared-exact-identifier",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "capital-projects--taxes--duplicate-content",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "capital-projects--taxes--source-url-revisions",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "capital-projects--intergovernmental-agreements--same-record-topic-overlap",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "capital-projects--intergovernmental-agreements--shared-exact-identifier",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "capital-projects--intergovernmental-agreements--duplicate-content",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "capital-projects--intergovernmental-agreements--source-url-revisions",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "roads--transit--same-record-topic-overlap",
-      "candidate_count_before_release_checks": 5,
-      "status": "candidates"
-    },
-    {
-      "plan": "roads--transit--shared-exact-identifier",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "roads--transit--duplicate-content",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "roads--transit--source-url-revisions",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "roads--water--same-record-topic-overlap",
+      "plan": "water--wastewater--same-record-topic-overlap",
       "candidate_count_before_release_checks": 1,
       "status": "candidates"
     },
     {
-      "plan": "roads--water--shared-exact-identifier",
+      "plan": "water--wastewater--shared-exact-identifier",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "roads--water--duplicate-content",
+      "plan": "water--wastewater--duplicate-content",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "roads--water--source-url-revisions",
+      "plan": "water--wastewater--source-url-revisions",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "roads--wastewater--same-record-topic-overlap",
-      "candidate_count_before_release_checks": 5,
-      "status": "candidates"
-    },
-    {
-      "plan": "roads--wastewater--shared-exact-identifier",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "roads--wastewater--duplicate-content",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "roads--wastewater--source-url-revisions",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "roads--stormwater--same-record-topic-overlap",
-      "candidate_count_before_release_checks": 5,
-      "status": "candidates"
-    },
-    {
-      "plan": "roads--stormwater--shared-exact-identifier",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "roads--stormwater--duplicate-content",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "roads--stormwater--source-url-revisions",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "roads--water-rights--same-record-topic-overlap",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "roads--water-rights--shared-exact-identifier",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "roads--water-rights--duplicate-content",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "roads--water-rights--source-url-revisions",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "roads--land-use--same-record-topic-overlap",
-      "candidate_count_before_release_checks": 5,
-      "status": "candidates"
-    },
-    {
-      "plan": "roads--land-use--shared-exact-identifier",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "roads--land-use--duplicate-content",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "roads--land-use--source-url-revisions",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "roads--annexation--same-record-topic-overlap",
-      "candidate_count_before_release_checks": 5,
-      "status": "candidates"
-    },
-    {
-      "plan": "roads--annexation--shared-exact-identifier",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "roads--annexation--duplicate-content",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "roads--annexation--source-url-revisions",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "roads--parcels--same-record-topic-overlap",
-      "candidate_count_before_release_checks": 5,
-      "status": "candidates"
-    },
-    {
-      "plan": "roads--parcels--shared-exact-identifier",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "roads--parcels--duplicate-content",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "roads--parcels--source-url-revisions",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "roads--public-land--same-record-topic-overlap",
-      "candidate_count_before_release_checks": 5,
-      "status": "candidates"
-    },
-    {
-      "plan": "roads--public-land--shared-exact-identifier",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "roads--public-land--duplicate-content",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "roads--public-land--source-url-revisions",
-      "candidate_count_before_release_checks": 0,
-      "status": "no_match_in_current_window"
-    },
-    {
-      "plan": "roads--energy--same-record-topic-overlap",
+      "plan": "water--stormwater--same-record-topic-overlap",
       "candidate_count_before_release_checks": 1,
       "status": "candidates"
     },
     {
-      "plan": "roads--energy--shared-exact-identifier",
+      "plan": "water--stormwater--shared-exact-identifier",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "roads--energy--duplicate-content",
+      "plan": "water--stormwater--duplicate-content",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "roads--energy--source-url-revisions",
+      "plan": "water--stormwater--source-url-revisions",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "roads--environment--same-record-topic-overlap",
+      "plan": "water--water-rights--same-record-topic-overlap",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "water--water-rights--shared-exact-identifier",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "water--water-rights--duplicate-content",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "water--water-rights--source-url-revisions",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "water--land-use--same-record-topic-overlap",
       "candidate_count_before_release_checks": 1,
       "status": "candidates"
     },
     {
-      "plan": "roads--environment--shared-exact-identifier",
+      "plan": "water--land-use--shared-exact-identifier",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "roads--environment--duplicate-content",
+      "plan": "water--land-use--duplicate-content",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "roads--environment--source-url-revisions",
+      "plan": "water--land-use--source-url-revisions",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "roads--legacy-defense--same-record-topic-overlap",
-      "candidate_count_before_release_checks": 5,
-      "status": "candidates"
-    },
-    {
-      "plan": "roads--legacy-defense--shared-exact-identifier",
+      "plan": "water--annexation--same-record-topic-overlap",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "roads--legacy-defense--duplicate-content",
+      "plan": "water--annexation--shared-exact-identifier",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "roads--legacy-defense--source-url-revisions",
+      "plan": "water--annexation--duplicate-content",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "roads--housing--same-record-topic-overlap",
-      "candidate_count_before_release_checks": 5,
-      "status": "candidates"
-    },
-    {
-      "plan": "roads--housing--shared-exact-identifier",
+      "plan": "water--annexation--source-url-revisions",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "roads--housing--duplicate-content",
+      "plan": "water--parcels--same-record-topic-overlap",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "roads--housing--source-url-revisions",
+      "plan": "water--parcels--shared-exact-identifier",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "roads--public-safety--same-record-topic-overlap",
-      "candidate_count_before_release_checks": 5,
-      "status": "candidates"
-    },
-    {
-      "plan": "roads--public-safety--shared-exact-identifier",
+      "plan": "water--parcels--duplicate-content",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "roads--public-safety--duplicate-content",
+      "plan": "water--parcels--source-url-revisions",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "roads--public-safety--source-url-revisions",
+      "plan": "water--public-land--same-record-topic-overlap",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "roads--fire-services--same-record-topic-overlap",
-      "candidate_count_before_release_checks": 5,
-      "status": "candidates"
-    },
-    {
-      "plan": "roads--fire-services--shared-exact-identifier",
+      "plan": "water--public-land--shared-exact-identifier",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "roads--fire-services--duplicate-content",
+      "plan": "water--public-land--duplicate-content",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "roads--fire-services--source-url-revisions",
+      "plan": "water--public-land--source-url-revisions",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "roads--emergency-management--same-record-topic-overlap",
+      "plan": "water--energy--same-record-topic-overlap",
       "candidate_count_before_release_checks": 1,
       "status": "candidates"
     },
     {
-      "plan": "roads--emergency-management--shared-exact-identifier",
+      "plan": "water--energy--shared-exact-identifier",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "roads--emergency-management--duplicate-content",
+      "plan": "water--energy--duplicate-content",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "roads--emergency-management--source-url-revisions",
+      "plan": "water--energy--source-url-revisions",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "roads--public-health--same-record-topic-overlap",
+      "plan": "water--environment--same-record-topic-overlap",
+      "candidate_count_before_release_checks": 1,
+      "status": "candidates"
+    },
+    {
+      "plan": "water--environment--shared-exact-identifier",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "roads--public-health--shared-exact-identifier",
+      "plan": "water--environment--duplicate-content",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "roads--public-health--duplicate-content",
+      "plan": "water--environment--source-url-revisions",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "roads--public-health--source-url-revisions",
+      "plan": "water--legacy-defense--same-record-topic-overlap",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "roads--schools--same-record-topic-overlap",
+      "plan": "water--legacy-defense--shared-exact-identifier",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "water--legacy-defense--duplicate-content",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "water--legacy-defense--source-url-revisions",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "water--housing--same-record-topic-overlap",
+      "candidate_count_before_release_checks": 1,
+      "status": "candidates"
+    },
+    {
+      "plan": "water--housing--shared-exact-identifier",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "water--housing--duplicate-content",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "water--housing--source-url-revisions",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "water--public-safety--same-record-topic-overlap",
+      "candidate_count_before_release_checks": 1,
+      "status": "candidates"
+    },
+    {
+      "plan": "water--public-safety--shared-exact-identifier",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "water--public-safety--duplicate-content",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "water--public-safety--source-url-revisions",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "water--fire-services--same-record-topic-overlap",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "water--fire-services--shared-exact-identifier",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "water--fire-services--duplicate-content",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "water--fire-services--source-url-revisions",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "water--emergency-management--same-record-topic-overlap",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "water--emergency-management--shared-exact-identifier",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "water--emergency-management--duplicate-content",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "water--emergency-management--source-url-revisions",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "water--public-health--same-record-topic-overlap",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "water--public-health--shared-exact-identifier",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "water--public-health--duplicate-content",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "water--public-health--source-url-revisions",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "water--schools--same-record-topic-overlap",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "water--schools--shared-exact-identifier",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "water--schools--duplicate-content",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "water--schools--source-url-revisions",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "water--elections--same-record-topic-overlap",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "water--elections--shared-exact-identifier",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "water--elections--duplicate-content",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "water--elections--source-url-revisions",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "water--council-decisions--same-record-topic-overlap",
+      "candidate_count_before_release_checks": 2,
+      "status": "candidates"
+    },
+    {
+      "plan": "water--council-decisions--shared-exact-identifier",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "water--council-decisions--duplicate-content",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "water--council-decisions--source-url-revisions",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "water--legal-code--same-record-topic-overlap",
+      "candidate_count_before_release_checks": 1,
+      "status": "candidates"
+    },
+    {
+      "plan": "water--legal-code--shared-exact-identifier",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "water--legal-code--duplicate-content",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "water--legal-code--source-url-revisions",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "water--public-comments--same-record-topic-overlap",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "water--public-comments--shared-exact-identifier",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "water--public-comments--duplicate-content",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "water--public-comments--source-url-revisions",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "water--records-retention--same-record-topic-overlap",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "water--records-retention--shared-exact-identifier",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "water--records-retention--duplicate-content",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "water--records-retention--source-url-revisions",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "water--vendor-data--same-record-topic-overlap",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "water--vendor-data--shared-exact-identifier",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "water--vendor-data--duplicate-content",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "water--vendor-data--source-url-revisions",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "water--staffing--same-record-topic-overlap",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "water--staffing--shared-exact-identifier",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "water--staffing--duplicate-content",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "water--staffing--source-url-revisions",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "water--fees--same-record-topic-overlap",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "water--fees--shared-exact-identifier",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "water--fees--duplicate-content",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "water--fees--source-url-revisions",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "water--taxes--same-record-topic-overlap",
+      "candidate_count_before_release_checks": 1,
+      "status": "candidates"
+    },
+    {
+      "plan": "water--taxes--shared-exact-identifier",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "water--taxes--duplicate-content",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "water--taxes--source-url-revisions",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "water--intergovernmental-agreements--same-record-topic-overlap",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "water--intergovernmental-agreements--shared-exact-identifier",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "water--intergovernmental-agreements--duplicate-content",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "water--intergovernmental-agreements--source-url-revisions",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "wastewater--stormwater--same-record-topic-overlap",
       "candidate_count_before_release_checks": 5,
       "status": "candidates"
     },
     {
-      "plan": "roads--schools--shared-exact-identifier",
+      "plan": "wastewater--stormwater--shared-exact-identifier",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "roads--schools--duplicate-content",
+      "plan": "wastewater--stormwater--duplicate-content",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "roads--schools--source-url-revisions",
+      "plan": "wastewater--stormwater--source-url-revisions",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "roads--elections--same-record-topic-overlap",
+      "plan": "wastewater--water-rights--same-record-topic-overlap",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "wastewater--water-rights--shared-exact-identifier",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "wastewater--water-rights--duplicate-content",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "wastewater--water-rights--source-url-revisions",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "wastewater--land-use--same-record-topic-overlap",
+      "candidate_count_before_release_checks": 5,
+      "status": "candidates"
+    },
+    {
+      "plan": "wastewater--land-use--shared-exact-identifier",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "wastewater--land-use--duplicate-content",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "wastewater--land-use--source-url-revisions",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "wastewater--annexation--same-record-topic-overlap",
+      "candidate_count_before_release_checks": 2,
+      "status": "candidates"
+    },
+    {
+      "plan": "wastewater--annexation--shared-exact-identifier",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "wastewater--annexation--duplicate-content",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "wastewater--annexation--source-url-revisions",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "wastewater--parcels--same-record-topic-overlap",
+      "candidate_count_before_release_checks": 5,
+      "status": "candidates"
+    },
+    {
+      "plan": "wastewater--parcels--shared-exact-identifier",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "wastewater--parcels--duplicate-content",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "wastewater--parcels--source-url-revisions",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "wastewater--public-land--same-record-topic-overlap",
+      "candidate_count_before_release_checks": 1,
+      "status": "candidates"
+    },
+    {
+      "plan": "wastewater--public-land--shared-exact-identifier",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "wastewater--public-land--duplicate-content",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "wastewater--public-land--source-url-revisions",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "wastewater--energy--same-record-topic-overlap",
+      "candidate_count_before_release_checks": 1,
+      "status": "candidates"
+    },
+    {
+      "plan": "wastewater--energy--shared-exact-identifier",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "wastewater--energy--duplicate-content",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "wastewater--energy--source-url-revisions",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "wastewater--environment--same-record-topic-overlap",
+      "candidate_count_before_release_checks": 2,
+      "status": "candidates"
+    },
+    {
+      "plan": "wastewater--environment--shared-exact-identifier",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "wastewater--environment--duplicate-content",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "wastewater--environment--source-url-revisions",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "wastewater--legacy-defense--same-record-topic-overlap",
+      "candidate_count_before_release_checks": 1,
+      "status": "candidates"
+    },
+    {
+      "plan": "wastewater--legacy-defense--shared-exact-identifier",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "wastewater--legacy-defense--duplicate-content",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "wastewater--legacy-defense--source-url-revisions",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "wastewater--housing--same-record-topic-overlap",
       "candidate_count_before_release_checks": 3,
       "status": "candidates"
     },
     {
-      "plan": "roads--elections--shared-exact-identifier",
+      "plan": "wastewater--housing--shared-exact-identifier",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "roads--elections--duplicate-content",
+      "plan": "wastewater--housing--duplicate-content",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "roads--elections--source-url-revisions",
+      "plan": "wastewater--housing--source-url-revisions",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "roads--council-decisions--same-record-topic-overlap",
+      "plan": "wastewater--public-safety--same-record-topic-overlap",
+      "candidate_count_before_release_checks": 4,
+      "status": "candidates"
+    },
+    {
+      "plan": "wastewater--public-safety--shared-exact-identifier",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "wastewater--public-safety--duplicate-content",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "wastewater--public-safety--source-url-revisions",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "wastewater--fire-services--same-record-topic-overlap",
+      "candidate_count_before_release_checks": 3,
+      "status": "candidates"
+    },
+    {
+      "plan": "wastewater--fire-services--shared-exact-identifier",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "wastewater--fire-services--duplicate-content",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "wastewater--fire-services--source-url-revisions",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "wastewater--emergency-management--same-record-topic-overlap",
+      "candidate_count_before_release_checks": 1,
+      "status": "candidates"
+    },
+    {
+      "plan": "wastewater--emergency-management--shared-exact-identifier",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "wastewater--emergency-management--duplicate-content",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "wastewater--emergency-management--source-url-revisions",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "wastewater--public-health--same-record-topic-overlap",
+      "candidate_count_before_release_checks": 4,
+      "status": "candidates"
+    },
+    {
+      "plan": "wastewater--public-health--shared-exact-identifier",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "wastewater--public-health--duplicate-content",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "wastewater--public-health--source-url-revisions",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "wastewater--schools--same-record-topic-overlap",
+      "candidate_count_before_release_checks": 1,
+      "status": "candidates"
+    },
+    {
+      "plan": "wastewater--schools--shared-exact-identifier",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "wastewater--schools--duplicate-content",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "wastewater--schools--source-url-revisions",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "wastewater--elections--same-record-topic-overlap",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "wastewater--elections--shared-exact-identifier",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "wastewater--elections--duplicate-content",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "wastewater--elections--source-url-revisions",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "wastewater--council-decisions--same-record-topic-overlap",
       "candidate_count_before_release_checks": 5,
       "status": "candidates"
     },
     {
-      "plan": "roads--council-decisions--shared-exact-identifier",
+      "plan": "wastewater--council-decisions--shared-exact-identifier",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "roads--council-decisions--duplicate-content",
+      "plan": "wastewater--council-decisions--duplicate-content",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "roads--council-decisions--source-url-revisions",
+      "plan": "wastewater--council-decisions--source-url-revisions",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "roads--legal-code--same-record-topic-overlap",
+      "plan": "wastewater--legal-code--same-record-topic-overlap",
       "candidate_count_before_release_checks": 5,
       "status": "candidates"
     },
     {
-      "plan": "roads--legal-code--shared-exact-identifier",
+      "plan": "wastewater--legal-code--shared-exact-identifier",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "roads--legal-code--duplicate-content",
+      "plan": "wastewater--legal-code--duplicate-content",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "roads--legal-code--source-url-revisions",
+      "plan": "wastewater--legal-code--source-url-revisions",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "roads--public-comments--same-record-topic-overlap",
+      "plan": "wastewater--public-comments--same-record-topic-overlap",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "wastewater--public-comments--shared-exact-identifier",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "wastewater--public-comments--duplicate-content",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "wastewater--public-comments--source-url-revisions",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "wastewater--records-retention--same-record-topic-overlap",
+      "candidate_count_before_release_checks": 1,
+      "status": "candidates"
+    },
+    {
+      "plan": "wastewater--records-retention--shared-exact-identifier",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "wastewater--records-retention--duplicate-content",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "wastewater--records-retention--source-url-revisions",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "wastewater--vendor-data--same-record-topic-overlap",
+      "candidate_count_before_release_checks": 1,
+      "status": "candidates"
+    },
+    {
+      "plan": "wastewater--vendor-data--shared-exact-identifier",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "wastewater--vendor-data--duplicate-content",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "wastewater--vendor-data--source-url-revisions",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "wastewater--staffing--same-record-topic-overlap",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "wastewater--staffing--shared-exact-identifier",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "wastewater--staffing--duplicate-content",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "wastewater--staffing--source-url-revisions",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "wastewater--fees--same-record-topic-overlap",
       "candidate_count_before_release_checks": 5,
       "status": "candidates"
     },
     {
-      "plan": "roads--public-comments--shared-exact-identifier",
+      "plan": "wastewater--fees--shared-exact-identifier",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "roads--public-comments--duplicate-content",
+      "plan": "wastewater--fees--duplicate-content",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "roads--public-comments--source-url-revisions",
+      "plan": "wastewater--fees--source-url-revisions",
       "candidate_count_before_release_checks": 0,
       "status": "no_match_in_current_window"
     },
     {
-      "plan": "roads--records-retention--same-record-topic-overlap",
+      "plan": "wastewater--taxes--same-record-topic-overlap",
+      "candidate_count_before_release_checks": 5,
+      "status": "candidates"
+    },
+    {
+      "plan": "wastewater--taxes--shared-exact-identifier",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "wastewater--taxes--duplicate-content",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "wastewater--taxes--source-url-revisions",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "wastewater--intergovernmental-agreements--same-record-topic-overlap",
       "candidate_count_before_release_checks": 2,
+      "status": "candidates"
+    },
+    {
+      "plan": "wastewater--intergovernmental-agreements--shared-exact-identifier",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "wastewater--intergovernmental-agreements--duplicate-content",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "wastewater--intergovernmental-agreements--source-url-revisions",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "stormwater--water-rights--same-record-topic-overlap",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "stormwater--water-rights--shared-exact-identifier",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "stormwater--water-rights--duplicate-content",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "stormwater--water-rights--source-url-revisions",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "stormwater--land-use--same-record-topic-overlap",
+      "candidate_count_before_release_checks": 5,
+      "status": "candidates"
+    },
+    {
+      "plan": "stormwater--land-use--shared-exact-identifier",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "stormwater--land-use--duplicate-content",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "stormwater--land-use--source-url-revisions",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "stormwater--annexation--same-record-topic-overlap",
+      "candidate_count_before_release_checks": 2,
+      "status": "candidates"
+    },
+    {
+      "plan": "stormwater--annexation--shared-exact-identifier",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "stormwater--annexation--duplicate-content",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "stormwater--annexation--source-url-revisions",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "stormwater--parcels--same-record-topic-overlap",
+      "candidate_count_before_release_checks": 5,
+      "status": "candidates"
+    },
+    {
+      "plan": "stormwater--parcels--shared-exact-identifier",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "stormwater--parcels--duplicate-content",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "stormwater--parcels--source-url-revisions",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "stormwater--public-land--same-record-topic-overlap",
+      "candidate_count_before_release_checks": 1,
+      "status": "candidates"
+    },
+    {
+      "plan": "stormwater--public-land--shared-exact-identifier",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "stormwater--public-land--duplicate-content",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "stormwater--public-land--source-url-revisions",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "stormwater--energy--same-record-topic-overlap",
+      "candidate_count_before_release_checks": 2,
+      "status": "candidates"
+    },
+    {
+      "plan": "stormwater--energy--shared-exact-identifier",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "stormwater--energy--duplicate-content",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "stormwater--energy--source-url-revisions",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "stormwater--environment--same-record-topic-overlap",
+      "candidate_count_before_release_checks": 1,
+      "status": "candidates"
+    },
+    {
+      "plan": "stormwater--environment--shared-exact-identifier",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "stormwater--environment--duplicate-content",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "stormwater--environment--source-url-revisions",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "stormwater--legacy-defense--same-record-topic-overlap",
+      "candidate_count_before_release_checks": 1,
+      "status": "candidates"
+    },
+    {
+      "plan": "stormwater--legacy-defense--shared-exact-identifier",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "stormwater--legacy-defense--duplicate-content",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "stormwater--legacy-defense--source-url-revisions",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "stormwater--housing--same-record-topic-overlap",
+      "candidate_count_before_release_checks": 5,
+      "status": "candidates"
+    },
+    {
+      "plan": "stormwater--housing--shared-exact-identifier",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "stormwater--housing--duplicate-content",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "stormwater--housing--source-url-revisions",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "stormwater--public-safety--same-record-topic-overlap",
+      "candidate_count_before_release_checks": 5,
+      "status": "candidates"
+    },
+    {
+      "plan": "stormwater--public-safety--shared-exact-identifier",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "stormwater--public-safety--duplicate-content",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "stormwater--public-safety--source-url-revisions",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "stormwater--fire-services--same-record-topic-overlap",
+      "candidate_count_before_release_checks": 4,
+      "status": "candidates"
+    },
+    {
+      "plan": "stormwater--fire-services--shared-exact-identifier",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "stormwater--fire-services--duplicate-content",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "stormwater--fire-services--source-url-revisions",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "stormwater--emergency-management--same-record-topic-overlap",
+      "candidate_count_before_release_checks": 1,
+      "status": "candidates"
+    },
+    {
+      "plan": "stormwater--emergency-management--shared-exact-identifier",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "stormwater--emergency-management--duplicate-content",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "stormwater--emergency-management--source-url-revisions",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "stormwater--public-health--same-record-topic-overlap",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "stormwater--public-health--shared-exact-identifier",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "stormwater--public-health--duplicate-content",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "stormwater--public-health--source-url-revisions",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "stormwater--schools--same-record-topic-overlap",
+      "candidate_count_before_release_checks": 5,
+      "status": "candidates"
+    },
+    {
+      "plan": "stormwater--schools--shared-exact-identifier",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "stormwater--schools--duplicate-content",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "stormwater--schools--source-url-revisions",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "stormwater--elections--same-record-topic-overlap",
+      "candidate_count_before_release_checks": 1,
+      "status": "candidates"
+    },
+    {
+      "plan": "stormwater--elections--shared-exact-identifier",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "stormwater--elections--duplicate-content",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "stormwater--elections--source-url-revisions",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "stormwater--council-decisions--same-record-topic-overlap",
+      "candidate_count_before_release_checks": 5,
+      "status": "candidates"
+    },
+    {
+      "plan": "stormwater--council-decisions--shared-exact-identifier",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "stormwater--council-decisions--duplicate-content",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "stormwater--council-decisions--source-url-revisions",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "stormwater--legal-code--same-record-topic-overlap",
+      "candidate_count_before_release_checks": 4,
+      "status": "candidates"
+    },
+    {
+      "plan": "stormwater--legal-code--shared-exact-identifier",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "stormwater--legal-code--duplicate-content",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "stormwater--legal-code--source-url-revisions",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "stormwater--public-comments--same-record-topic-overlap",
+      "candidate_count_before_release_checks": 2,
+      "status": "candidates"
+    },
+    {
+      "plan": "stormwater--public-comments--shared-exact-identifier",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "stormwater--public-comments--duplicate-content",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "stormwater--public-comments--source-url-revisions",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "stormwater--records-retention--same-record-topic-overlap",
+      "candidate_count_before_release_checks": 1,
+      "status": "candidates"
+    },
+    {
+      "plan": "stormwater--records-retention--shared-exact-identifier",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "stormwater--records-retention--duplicate-content",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "stormwater--records-retention--source-url-revisions",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "stormwater--vendor-data--same-record-topic-overlap",
+      "candidate_count_before_release_checks": 1,
+      "status": "candidates"
+    },
+    {
+      "plan": "stormwater--vendor-data--shared-exact-identifier",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "stormwater--vendor-data--duplicate-content",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "stormwater--vendor-data--source-url-revisions",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "stormwater--staffing--same-record-topic-overlap",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "stormwater--staffing--shared-exact-identifier",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "stormwater--staffing--duplicate-content",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "stormwater--staffing--source-url-revisions",
+      "candidate_count_before_release_checks": 0,
+      "status": "no_match_in_current_window"
+    },
+    {
+      "plan": "stormwater--fees--same-record-topic-overlap",
+      "candidate_count_before_release_checks": 5,
       "status": "candidates"
     }
   ]
